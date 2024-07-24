@@ -12,15 +12,15 @@ error-prone, particularly for exotic systems (Windows).
 ::: info
 
 For this chapter, we assume you have learned about
-[configuration](/guide/configure/sample-configuration.md) and
-[management](/guide/configure/peer-management.md) in Iroha 2. Here we offer
+[configuration](/guide/configure/sample-configuration) and
+[management](/guide/configure/peer-management) in Iroha 2. Here we offer
 you instructions to run Iroha on bare metal without going into details
 about various configuration options available.
 
 You can always check
-[sample configuration files](/guide/configure/sample-configuration.md) for
+[sample configuration files](/guide/configure/sample-configuration) for
 `configs/peer/genesis.json` and `configs/peer/config.json`, or refer to
-[peer configuration options](/guide/configure/peer-configuration.md) for
+[peer configuration options](/guide/configure/peer-configuration) for
 more details.
 
 <!-- TODO: Add the new configuration reference, once its ready. Issue: https://github.com/hyperledger/iroha-2-docs/issues/392
@@ -36,8 +36,7 @@ on bare metal.
 
 ::: info
 
-Building in `debug` mode retains much more information and optimises the
-binary to a far lesser extent. As such, we advise you to build Iroha in
+Building in `debug` mode retains much more information and optimizes the binary to a far lesser extent. As such, we advise you to build Iroha in
 `debug` mode for testing: it’s faster and it makes it easier for you to
 find issues and fix them. However, if you intend to actually deploy Iroha,
 you should build it in `--release` mode.
@@ -67,8 +66,7 @@ you should build it in `--release` mode.
 We want to make sure that we have the right configuration.
 
 There are different ways to do this. You can copy the contents of the
-`~/Git/iroha/configs/peer/` into a new directory, or, alternatively, just
-run all commands from that directory:
+`~/Git/iroha/configs/peer/` into a new directory, or just run all commands from that directory:
 
 ```bash
 $ cd ~/Git/iroha/configs/peer
@@ -353,7 +351,7 @@ ports need to be adjusted so there are no collisions. See the
 
 ## Deploy a minimal BFT network
 
-Both of the following approaches could be messy and error-prone, which is why the [Launch Iroha](../get-started/launch-iroha.md) tutorial suggests using the `docker compose` command.
+Both of the following approaches could be messy and error-prone, which is why the [Launch Iroha](/get-started/launch-iroha) tutorial suggests using the `docker compose` command.
 However, this brings you closer to the experience of actually maintaining a functional Iroha peer.
 
 ### Using Environment Variables

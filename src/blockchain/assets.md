@@ -9,7 +9,7 @@ same as a £1 bill signed by the King of Spades).
 
 The assets can also be **mintable** (you can make more of them) and
 **non-mintable** (you can only specify their initial quantity in the
-[genesis block](/guide/configure/genesis.md)).
+[genesis block](/guide/configure/genesis)).
 
 ## Value Types
 
@@ -76,8 +76,8 @@ Assets can be [registered](./instructions.md#un-register),
 Refer to one of the language-specific guides to walk you through the
 process of registering and minting assets in a blockchain:
 
-- [CLI](/guide/get-started/operate-iroha-via-cli.md#_6-registering-and-minting-assets)
-- [Rust](/guide/get-started/rust.md#_5-registering-and-minting-assets)
-- [Kotlin/Java](/guide/get-started/kotlin-java.md#_5-registering-and-minting-assets)
-- [Python](/guide/get-started/python.md#_5-registering-and-minting-assets)
-- [JavaScript/TypeScript](/guide/get-started/javascript.md#_5-registering-and-minting-assets)
+- [CLI](/get-started/operate-iroha-via-cli.md#_6-register-and-mint-assets)
+- [Rust](/guide/tutorials/rust.md#_5-registering-and-minting-assets)
+- [Kotlin/Java](/guide/tutorials/kotlin-java.md#_5-registering-and-minting-assets)
+- [Python](/guide/tutorials/python.md#_5-registering-and-minting-assets)
+- [JavaScript/TypeScript](/guide/tutorials/javascript.md#_5-registering-and-minting-assets)

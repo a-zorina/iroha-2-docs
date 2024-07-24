@@ -117,7 +117,7 @@ accounts, domains, assets, or transactions. This is the storage for trigger
 data.
 
 You can learn more about metadata in a
-[dedicated section](/guide/blockchain/metadata.md).
+[dedicated section](/blockchain/metadata).
 
 ## How Triggers Work
 

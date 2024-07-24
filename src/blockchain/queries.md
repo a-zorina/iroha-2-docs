@@ -77,14 +77,14 @@ that match the specified filter.
 
 ## Sorting
 
-Iroha 2 can sort items with [metadata](/guide/blockchain/metadata.md)
+Iroha 2 can sort items with [metadata](/blockchain/metadata)
 lexicographically if you provide a key to sort by during the construction
 of the query. A typical use case is for accounts to have a `registered-on`
 metadata entry, which, when sorted, allows you to view the account
 registration history.
 
 Sorting only applies to entities that have
-[metadata](/guide/blockchain/metadata.md), as the metadata key is used to
+[metadata](/blockchain/metadata), as the metadata key is used to
 sort query results.
 
 You can combine sorting with pagination and filters. Note that sorting is
@@ -92,4 +92,4 @@ an optional feature, most queries with pagination won't need it.
 
 ## Reference
 
-Check the [list of existing queries](/reference/queries.md) for detailed information about them.
+Check the [list of existing queries](/reference/queries) for detailed information about them.

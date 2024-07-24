@@ -92,8 +92,8 @@ smart contract: complex logic designed for use in on-chain scripting.
 
 For smart contracts, Iroha 2 supports two approaches:
 
-- [Iroha Special Instructions (ISI)](./blockchain/instructions.md)
-- [Web ASseMbly (WASM)](./blockchain/wasm.md)
+- [Iroha Special Instructions (ISI)](/blockchain/instructions)
+- [Web ASseMbly (WASM)](/blockchain/wasm)
 
 The first approach is useful when you want very simple transparent logic
 and also want to minimise the footprint in the blockchain. All interactions

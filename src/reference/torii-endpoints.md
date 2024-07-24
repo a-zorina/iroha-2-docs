@@ -73,7 +73,7 @@ A `GET` request to the endpoint.
 
 ::: info
 
-The API version is retrieved from and is the same as the version of the [genesis block](../guide/configure/genesis.md), which means that at least a minimal subnet of four peers must be running, and the genesis block must already be submitted at the time of the request.
+The API version is retrieved from and is the same as the version of the [genesis block](/guide/configure/genesis.md), which means that at least a minimal subnet of four peers must be running, and the genesis block must already be submitted at the time of the request.
 
 :::
 
@@ -139,7 +139,7 @@ This endpoint expects a subset of configuration parameters serialized into JSON 
 
 The list of all accepted values is currently unavailable and will be a part of the configuration reference that is still <abbr title="Work in Progress">WIP</abbr>.
 
-Until then, to get assistance with the acceptable values and their definitions, consult [Receive Support](../guide/support.md) for ways to contact us.
+Until then, to get assistance with the acceptable values and their definitions, consult [Receive Support](/help/) for ways to contact us.
 
 The progress on the configuration reference can be tracked in the following GitHub issue:\
 [iroha-2-docs > Issue #392: Tracking issue for Configuration Reference as per RFC](https://github.com/hyperledger/iroha-2-docs/issues/392).
@@ -289,7 +289,7 @@ view_changes 0
 
 ::: info
 
-To learn more about metrics, see [Metrics](../guide/advanced/metrics.md).
+To learn more about metrics, see [Metrics](/guide/advanced/metrics).
 
 :::
 

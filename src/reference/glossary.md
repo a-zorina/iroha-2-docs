@@ -2,14 +2,19 @@
 
 Here you can find definitions of all Iroha-related entities.
 
+- [Blockchain ledgers](#blockchain-ledgers)
 - [Peer](#peer)
 - [Asset](#asset)
+  - [Fungible assets](#fungible-assets)
+  - [Non-fungible assets](#non-fungible-assets)
+  - [Mintable assets](#mintable-assets)
+  - [Non-mintable assets](#non-mintable-assets)
 - [Byzantine fault-tolerance (BFT)](#byzantine-fault-tolerance-bft)
 - [Iroha Components](#iroha-components)
   - [Sumeragi (Emperor)](#sumeragi-emperor)
   - [Torii (Gate)](#torii-gate)
   - [Kura (Warehouse)](#kura-warehouse)
-  - [Kagami(Teacher and Exemplar and/or looking glass)](#kagami-teacher-and-exemplar-and-or-looking-glass)
+  - [Kagami (Teacher and Exemplar and/or looking glass)](#kagami-teacher-and-exemplar-and-or-looking-glass)
   - [Merkle tree (hash tree)](#merkle-tree-hash-tree)
   - [Smart contracts](#smart-contracts)
   - [Triggers](#triggers)
@@ -17,7 +22,7 @@ Here you can find definitions of all Iroha-related entities.
   - [Hijiri (peer reputation system)](#hijiri-peer-reputation-system)
 - [Iroha Modules](#iroha-modules)
 - [Iroha Special Instructions (ISI)](#iroha-special-instructions-isi)
-  - [Utility Iroha Special Instructions](#utility-iroha-special-instructions)
+    - [Utility Iroha Special Instructions](#utility-iroha-special-instructions)
   - [Core Iroha Special Instructions](#core-iroha-special-instructions)
   - [Domain-specific Iroha Special Instructions](#domain-specific-iroha-special-instructions)
   - [Custom Iroha Special Instruction](#custom-iroha-special-instruction)
@@ -57,7 +62,7 @@ In the context of blockchains, an asset is the representation of a valuable
 object on the blockchain.
 
 Additional information on assets is available
-[here](/guide/blockchain/assets.md).
+[here](/blockchain/assets).
 
 ### Fungible assets
 
@@ -87,7 +92,7 @@ An asset is mintable if more of the same type can be issued.
 If the initial amount of an asset is specified once and doesn't change, it
 is considered non-mintable.
 
-The [Genesis block](/guide/configure/genesis.md) sets this information for
+The [Genesis block](/guide/configure/genesis) sets this information for
 the Iroha configuration.
 
 ## Byzantine fault-tolerance (BFT)
@@ -115,7 +120,7 @@ as run-time configuration updates.
 Persistence-related logic. It handles storing the blocks, log rotation,
 block storage folder rotation, etc.
 
-### Kagami(Teacher and Exemplar and/or looking glass)
+### Kagami (Teacher and Exemplar and/or looking glass)
 
 Generator for commonly used data. It can generate cryptographic key pairs,
 genesis blocks, documentation, etc.
@@ -136,7 +141,7 @@ of conditions is met. In Iroha smart contracts are implemented using
 
 An event type that allows invoking an Iroha special instruction at specific
 block commit, time (with some caveats), etc. More on triggers
-[here](/guide/blockchain/triggers.md).
+[here](/blockchain/triggers).
 
 ### Versioning
 
@@ -159,7 +164,7 @@ Third party extensions to Iroha that provide custom functionality.
 
 A library of smart contracts provided with Iroha. These can be invoked via
 either transactions or registered event listeners. More on ISI
-[here](/guide/blockchain/instructions.md).
+[here](/blockchain/instructions).
 
 #### Utility Iroha Special Instructions
 
@@ -194,7 +199,7 @@ thus [peers](#peer) running a modified instance will have their access revoked.
 ## Iroha Query
 
 A request to read the World State View without modifying said view. More on
-queries [here](/guide/blockchain/queries.md).
+queries [here](/blockchain/queries).
 
 ## View change
 

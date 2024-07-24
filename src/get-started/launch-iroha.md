@@ -17,7 +17,7 @@
    [pull the image](https://hub.docker.com/r/hyperledger/iroha2/tags) from DockerHub, or build the container locally. After this process
    completes, you'll receive the following output:
 
-   <<< @/guide/get-started/launch-iroha.docker-compose-output.ansi
+   <<< @/get-started/launch-iroha.docker-compose-output.ansi
 
 4. Proceed to the [CLI tutorial](./operate-iroha-via-cli.md) to check out Iroha's capabilities.
 
@@ -45,4 +45,4 @@ Docker even more customizable with the help of Swarm.
 
 ## What's Next
 
-Now that you have Iroha up and running, proceed to the [CLI tutorial](/guide/get-started/operate-iroha-via-cli) to learn how to work with it.
+Now that you have Iroha up and running, proceed to the [CLI tutorial](/get-started/operate-iroha-via-cli) to learn how to work with it.

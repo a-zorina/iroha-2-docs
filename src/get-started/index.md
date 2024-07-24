@@ -12,34 +12,34 @@ can:
 - Manage user accounts with a domain hierarchy and multi-signature
   transactions
 - Use efficient portable smart contracts implemented either via
-  [WebAssembly](/guide/blockchain/wasm.md) or
-  [Iroha Special Instructions](/guide/blockchain/instructions.md)
+  [WebAssembly](/blockchain/wasm.md) or
+  [Iroha Special Instructions](/blockchain/instructions.md)
 - Use both permissioned and permission-less blockchain deployments
 
 
 
 ## Get Started
 
-1. [Install Iroha 2](/guide/get-started/install-iroha.md).
-2. [Launch Iroha 2](/guide/get-started/launch-iroha.md).
-3. [Learn how to operate Iroha via CLI](/guide/get-started/operate-iroha-via-cli.md) client: set up and
+1. [Install Iroha 2](/get-started/install-iroha.md).
+2. [Launch Iroha 2](/get-started/launch-iroha.md).
+3. [Learn how to operate Iroha via CLI](/get-started/operate-iroha-via-cli.md) client: set up and
    configure Iroha 2, register a domain and an account, register and manage
    assets, and visualize outputs.
 4. Once familiar with how Iroha works, proceed to the language-specific tutorials to learn how to build software on Iroha:
-   - [Python](/guide/get-started/python.md)
-   - [Rust](/guide/get-started/rust.md)
-   - [Kotlin/Java](/guide/get-started/kotlin-java.md)
-   - [Javascript (TypeScript)](/guide/get-started/javascript.md)
+   - [Python](/guide/tutorials/python.md)
+   - [Rust](/guide/tutorials/rust.md)
+   - [Kotlin/Java](/guide/tutorials/kotlin-java.md)
+   - [Javascript (TypeScript)](/guide/tutorials/javascript.md)
 
 
-If you have previously worked with Iroha, start with our comparison of [Iroha 1 and Iroha 2](/guide/iroha-2.md). It will help you understand the differences between the two versions and upgrade to the newer one.
+If you have previously worked with Iroha, start with our comparison of [Iroha 1 and Iroha 2](/get-started/iroha-2.md). It will help you understand the differences between the two versions and upgrade to the newer one.
 
 ## Explore In-Depth
 
 Once you've learned the basics, we suggest you read through the following:
   - [Security](/guide/security/index.md) section - learn about [core security principles](/guide/security/security-principles.md) and [operational security measures](/guide/security/operational-security.md) that are necessary to ensure the safety and validity of data and assets. This section also covers [cryptographic keys](/guide/security/public-key-cryptography.md), [how to generate them](/guide/security/generating-cryptographic-keys.md), and [how to store them securely](/guide/security/storing-cryptographic-keys.md).
 
-  - Blockchain chapter - find documentation for Iroha features, such as [Iroha Special Instructions](/guide/blockchain/instructions.md), [triggers](/guide/blockchain/triggers.md), [queries](/guide/blockchain/queries.md).
+  - Blockchain chapter - find documentation for Iroha features, such as [Iroha Special Instructions](/blockchain/instructions.md), [triggers](/blockchain/triggers.md), [queries](/blockchain/queries.md).
 
   - Configuration and Management section - explore Iroha 2 configuration files in great detail, including topics such as [genesis blocks and accounts](/guide/configure/genesis.md), [client configuration](/guide/configure/client-configuration.md), and [public and private modes](/guide/configure/modes.md).
 
